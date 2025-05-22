@@ -69,6 +69,8 @@ public class User
 ### 2. Initialize FileManager
 
 ```csharp
+using FileParser;
+
 var manager = new FileManager<User>("users.txt");
 ```
 
